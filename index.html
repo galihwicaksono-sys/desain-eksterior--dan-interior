@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galih Wicaksono | 3D Architectural Visualizer & Interior Drafter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">GALIH<span>.3D</span></a>
+      <nav>
+        <a href="#karya">Karya</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#kontak" class="btn-nav">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <p class="subtitle">3D Architectural Visualizer & Interior Drafter</p>
+      <h1>Mewujudkan Konsep Ruang dan Bangunan Menjadi Visualisasi Realistis & Dokumen Teknis Presisi.</h1>
+      <p class="bio">
+        Halo, saya <strong>Galih Wicaksono</strong>. Berpengalaman dalam pemodelan 3D eksterior, desain interior, animasi arsitektur, hingga penyusunan gambar kerja teknis menggunakan <strong>SketchUp, Enscape, dan AutoCAD</strong>.
+      </p>
+      <div class="hero-actions">
+        <a href="#karya" class="btn-primary">Lihat Portofolio</a>
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20jasa%20desain%203D%20Anda" target="_blank" class="btn-secondary">Konsultasi WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri Karya -->
+  <section id="karya" class="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2>Portofolio Terpilih</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="eksterior">Eksterior</button>
+          <button class="filter-btn" data-filter="interior">Interior</button>
+          <button class="filter-btn" data-filter="teknis">Gambar Kerja & Signage</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Item 1 -->
+        <div class="gallery-item" data-category="eksterior">
+          <div class="image-wrapper">
+            <img src="images/proyek-1.webp" alt="Fasad & Visualisasi Hunian Modern Tropis" loading="lazy">
+            <div class="overlay">
+              <span>Klik untuk memperbesar</span>
+            </div>
+          </div>
+          <div class="item-info">
+            <span class="tag">3D Exterior & Rendering</span>
+            <h3>Fasad & Visualisasi Hunian Modern Tropis</h3>
+            <p>Pemodelan massa bangunan dan eksplorasi material fasad menggunakan SketchUp & Enscape.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item" data-category="interior">
+          <div class="image-wrapper">
+            <img src="images/proyek-2.webp" alt="Desain Interior Ruang Keluarga & Dapur" loading="lazy">
+            <div class="overlay">
+              <span>Klik untuk memperbesar</span>
+            </div>
+          </div>
+          <div class="item-info">
+            <span class="tag">3D Interior & Dekorasi</span>
+            <h3>Desain Interior Ruang Keluarga & Dapur Minimalis</h3>
+            <p>Perancangan tata ruang fungsional dengan simulasi pencahayaan alami dan buatan.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item" data-category="teknis">
+          <div class="image-wrapper">
+            <img src="images/proyek-3.webp" alt="Gambar Kerja & Spesifikasi Signage" loading="lazy">
+            <div class="overlay">
+              <span>Klik untuk memperbesar</span>
+            </div>
+          </div>
+          <div class="item-info">
+            <span class="tag">2D CAD & 3D Signage</span>
+            <h3>Gambar Kerja & Spesifikasi Signage Komersial</h3>
+            <p>Penyusunan gambar potongan, ukuran presisi, dan detail material sebagai acuan produksi.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 (Salin blok div.gallery-item ini untuk menambah karya baru) -->
+        <div class="gallery-item" data-category="interior">
+          <div class="image-wrapper">
+            <img src="images/proyek-4.webp" alt="Interior Ruang Komersial" loading="lazy">
+            <div class="overlay">
+              <span>Klik untuk memperbesar</span>
+            </div>
+          </div>
+          <div class="item-info">
+            <span class="tag">3D Commercial Interior</span>
+            <h3>Visualisasi Interior Area Kafe & Komersial</h3>
+            <p>Eksplorasi suasana ruang, tekstur material, dan tata letak furnitur siap bangun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="services">
+    <div class="container">
+      <h2>Layanan Utama</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>3D Exterior & Interior Modeling</h3>
+          <p>Pembuatan model 3D akurat dari sketsa kasar, denah 2D, atau konsep awal untuk hunian, kafe, hingga bangunan komersial.</p>
+        </div>
+        <div class="service-card">
+          <h3>Photorealistic Rendering & Animasi</h3>
+          <p>Visualisasi gambar diam resolusi tinggi dan video walkthrough yang menampilkan detail tekstur material dan pencahayaan realistis.</p>
+        </div>
+        <div class="service-card">
+          <h3>2D Working Drawings</h3>
+          <p>Penyusunan dokumen gambar kerja teknis (denah, tampak, potongan, dan detail konstruksi) siap pakai untuk kontraktor.</p>
+        </div>
+        <div class="service-card">
+          <h3>3D Commercial & Signage</h3>
+          <p>Desain dan simulasi visual untuk kebutuhan booth, dekorasi acara, maupun huruf timbul akrilik dengan ukuran terukur.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak / CTA -->
+  <section id="kontak" class="cta">
+    <div class="container cta-box">
+      <h2>Punya Konsep Desain atau Kebutuhan Gambar Kerja?</h2>
+      <p>Diskusikan kebutuhan proyek arsitektur, interior, atau visualisasi 3D Anda sekarang untuk mendapatkan estimasi waktu dan penawaran terbaik.</p>
+      <div class="cta-links">
+        <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20jasa%20desain%203D%20Anda" target="_blank" class="btn-primary">Chat via WhatsApp</a>
+        <a href="mailto:emailanda@gmail.com" class="btn-secondary">Kirim Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Galih Wicaksono. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal untuk Gambar Resolusi Tinggi -->
+  <div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Preview Karya">
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <!-- Script Interaktif (Filter & Lightbox) -->
+  <script>
+    // Filter Kategori
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Lightbox Zoom
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
+    const closeBtn = document.querySelector('.close-lightbox');
+
+    document.querySelectorAll('.image-wrapper').forEach(wrapper => {
+      wrapper.addEventListener('click', () => {
+        const img = wrapper.querySelector('img');
+        lightbox.style.display = 'flex';
+        lightboxImg.src = img.src;
+        lightboxCaption.textContent = img.alt;
+      });
+    });
+
+    closeBtn.addEventListener('click', () => lightbox.style.display = 'none');
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) lightbox.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
